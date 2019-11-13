@@ -1,3 +1,4 @@
 export const hashtags = (text) => {
-  return text
+
+  return text.match(/#\w+/g);
 }
